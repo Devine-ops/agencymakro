@@ -15,7 +15,7 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <a href='app.tsx' className='w-32'>
-              <img src="/imgs/logo.png" alt='logomarca' className="w-120 h-10"/>
+              <img src="/imgs/logo2.png" alt='logomarca' className="w-120 h-10"/>
             </a>
           </div>
           
@@ -27,7 +27,7 @@ function App() {
           </div>
           
           <div className="hidden md:block">
-            <a href="#contato" className="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition-colors">
+            <a href="#contato" className="bg-[#FFD700] text-black px-6 py-2 rounded-full font-medium hover:bg-white hover:border transition-colors">
               Fale Conosco
             </a>
           </div>
@@ -57,20 +57,20 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-indigo-800 text-white py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-r from-[#1f2937] to-[#1f2937] text-white py-20 overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 z-10">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Transforme Visitantes em <span className="text-yellow-300">Clientes</span> com Landing Pages Otimizadas
+              Transforme Visitantes em <span className="text-[#FFD700]">Clientes</span> com Landing Pages Otimizadas
             </h1>
             <p className="text-xl mb-8 text-blue-100">
               Especialistas em tráfego pago e landing pages de alta conversão em Brasília. Aumente suas vendas com estratégias personalizadas para seu negócio.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <a href="#contato" className="bg-white text-blue-600 px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors text-center">
+              <a href="#contato" className="bg-[#FFD700] text-black px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors text-center">
                 Solicitar Proposta
               </a>
-              <a href="#servicos" className="border border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-blue-600 transition-colors text-center">
+              <a href="#servicos" className="border border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-black transition-colors text-center">
                 Nossos Serviços
               </a>
             </div>
@@ -111,26 +111,26 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard 
-              icon={<Target className="h-10 w-10 text-blue-600" />}
+              icon={<Target className="h-10 w-10 text-[#FFD700]" />}
               title="Tráfego Pago"
               description="Campanhas estratégicas no Google Ads, Facebook e Instagram para atrair clientes qualificados para o seu negócio."
             />
             
             <ServiceCard 
-              icon={<BarChart className="h-10 w-10 text-blue-600" />}
+              icon={<BarChart className="h-10 w-10 text-[#FFD700]" />}
               title="Landing Pages"
               description="Páginas de alta conversão desenvolvidas para transformar visitantes em leads e clientes para sua empresa."
             />
             
             <ServiceCard 
-              icon={<Users className="h-10 w-10 text-blue-600" />}
+              icon={<Users className="h-10 w-10 text-[#FFD700]" />}
               title="Remarketing"
               description="Reconquiste visitantes que não converteram com estratégias personalizadas de remarketing e aumente suas vendas."
             />
           </div>
           
           <div className="text-center mt-12">
-            <a href="#contato" className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors">
+            <a href="#contato" className="inline-flex items-center text-[#bda001] font-medium hover:text-[#FFD700] transition-colors">
               Ver todos os serviços
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
@@ -139,7 +139,7 @@ function App() {
       </section>
 
       {/* Results Section */}
-      <section id="resultados" className="py-20 bg-gray-50">
+      <section id="resultados" className="py-20 bg-gray-50 border">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Resultados Comprovados</h2>
@@ -150,17 +150,17 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">+250%</div>
+              <div className="text-4xl font-bold text-[#FFD700] mb-2">+250%</div>
               <p className="text-gray-600">Aumento médio em conversões</p>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">-40%</div>
+              <div className="text-4xl font-bold text-[#FFD700] mb-2">-40%</div>
               <p className="text-gray-600">Redução no custo por aquisição</p>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">+180%</div>
+              <div className="text-4xl font-bold text-[#FFD700] mb-2">+180%</div>
               <p className="text-gray-600">Aumento em leads qualificados</p>
             </div>
           </div>
@@ -262,7 +262,7 @@ function App() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#1f2937] to-[#1f2937] text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Pronto para aumentar suas conversões?</h2>
           <p className="text-xl mb-10 max-w-3xl mx-auto text-blue-100">
@@ -388,7 +388,7 @@ function App() {
             <div>
               <div className="flex items-center mb-4">
               <a href='app.tsx' className='w-32'>
-              <img src="../src/imgs/logo.png" alt='logomarca' className=""/>
+              <img src="/imgs/logo2.png" alt='logomarca' className=""/>
             </a>
               </div>
               <p className="text-gray-400 mb-4">
