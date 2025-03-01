@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ArrowRight, CheckCircle, Target, BarChart, Users, Award, ChevronDown, Mail, Phone, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowRight, CheckCircle, Target, BarChart, Users, ChevronDown, Mail, Phone, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
 import HeroImage from './components/HeroImage';
 import TestimonialCard from './components/TestimonialCard';
 import ServiceCard from './components/ServiceCard';
@@ -15,15 +15,15 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <a href='app.tsx' className='w-32'>
-              <img src="../src/imgs/logo.png" alt='logomarca' className=""/>
+              <img src="../src/imgs/logo.png" alt='logomarca' className="w-120 h-10"/>
             </a>
           </div>
           
           <div className="hidden md:flex space-x-8">
-            <a href="#servicos" className="text-gray-600 hover:text-blue-600 transition-colors">Serviços</a>
-            <a href="#resultados" className="text-gray-600 hover:text-blue-600 transition-colors">Resultados</a>
-            <a href="#depoimentos" className="text-gray-600 hover:text-blue-600 transition-colors">Depoimentos</a>
-            <a href="#contato" className="text-gray-600 hover:text-blue-600 transition-colors">Contato</a>
+            <a href="#servicos" className="text-black hover:text-blue-600 transition-colors">Serviços</a>
+            <a href="#resultados" className="text-black hover:text-blue-600 transition-colors">Resultados</a>
+            <a href="#depoimentos" className="text-black hover:text-blue-600 transition-colors">Depoimentos</a>
+            <a href="#contato" className="text-black hover:text-blue-600 transition-colors">Contato</a>
           </div>
           
           <div className="hidden md:block">
@@ -90,11 +90,11 @@ function App() {
         <div className="container mx-auto px-4">
           <p className="text-center text-gray-500 mb-8">Empresas que confiam em nosso trabalho</p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            <div className="text-gray-400 font-semibold"><img src="../src/imgs/factocred.png"/></div>
-            <div className="text-gray-400 font-semibold"><img src="../src/imgs/finanzi.png"/></div>
-            <div className="text-gray-400 font-semibold"><img src="../src/imgs/shirley.png"/></div>
-            <div className="text-gray-400 font-semibold"><img src="../src/imgs/truckme.png"/></div>
-            <div className="text-gray-400 font-semibold"><img src="../src/imgs/futurebpo.png"/></div>
+            <div className="w-100 h-100"><img src="../src/imgs/factocred.png"/></div>
+            <div className="w-100 h-100"><img src="../src/imgs/finanzi.png"/></div>
+            <div className="w-100 h-100"><img src="../src/imgs/shirley.png"/></div>
+            <div className="w-100 h-100"><img src="../src/imgs/truckme.png"/></div>
+            <div className="w-100 h-100"><img src="../src/imgs/futurebpo.png"/></div>
           </div>
         </div>
       </section>
