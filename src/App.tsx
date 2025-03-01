@@ -15,7 +15,7 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <a href='app.tsx' className='w-32'>
-              <img src="../src/imgs/logo.png" alt='logomarca' className="w-120 h-10"/>
+              <img src="/imgs/logo.png" alt='logomarca' className="w-120 h-10"/>
             </a>
           </div>
           
@@ -90,11 +90,11 @@ function App() {
         <div className="container mx-auto px-4">
           <p className="text-center text-gray-500 mb-8">Empresas que confiam em nosso trabalho</p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            <div className="w-100 h-100"><img src="../src/imgs/factocred.png"/></div>
-            <div className="w-100 h-100"><img src="../src/imgs/finanzi.png"/></div>
-            <div className="w-100 h-100"><img src="../src/imgs/shirley.png"/></div>
-            <div className="w-100 h-100"><img src="../src/imgs/truckme.png"/></div>
-            <div className="w-100 h-100"><img src="../src/imgs/futurebpo.png"/></div>
+            <div className="w-100 h-100"><img src="/imgs/factocred.png" alt="Factocred" /></div>
+            <div className="w-100 h-100"><img src="/imgs/finanzi.png" alt="Finanzi" /></div>
+            <div className="w-100 h-100"><img src="/imgs/shirley.png" alt="Shirley" /></div>
+            <div className="w-100 h-100"><img src="/imgs/truckme.png" alt="Truckme" /></div>
+            <div className="w-100 h-100"><img src="/imgs/futurebpo.png" alt="Future BPO" /></div>
           </div>
         </div>
       </section>
