@@ -341,7 +341,7 @@ function App() {
                 <div className="mt-10">
                   <h4 className="text-lg font-semibold mb-4 text-gray-800">Siga-nos nas redes sociais</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
+                    <a href="https://www.instagram.com/makroagencia/" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Instagram className="h-6 w-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
