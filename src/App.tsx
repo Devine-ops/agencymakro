@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowRight, CheckCircle, Target, BarChart, Users, ChevronDown, Mail, Phone, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
+import {ArrowRight, CheckCircle, Target, BarChart, Users, ChevronDown, Mail, Phone, MapPin, Instagram, Facebook, Linkedin, Percent, PieChart, Award} from 'lucide-react';
 import HeroImage from './components/HeroImage';
 import TestimonialCard from './components/TestimonialCard';
 import ServiceCard from './components/ServiceCard';
@@ -127,6 +127,25 @@ function App() {
               title="Remarketing"
               description="Reconquiste visitantes que não converteram com estratégias personalizadas de remarketing e aumente suas vendas."
             />
+
+            <ServiceCard
+              icon={<Percent className="h-10 w-10 text-[#FFD700]" />}
+              title="E-commerce"
+              description="O e-commerce é uma poderosa ferramenta para geração de receita, oferecendo alta escalabilidade e acessibilidade global. 
+              Com a estrutura certa, é possível alcançar novos mercados, expandir o público-alvo e maximizar os lucros de forma eficiente. "
+            />
+
+            <ServiceCard
+              icon={<PieChart className="h-10 w-10 text-[#FFD700]" />}
+              title="Relatórios"
+              description="Tenha métricas mensais para tomada de decisões rápidas e efiecientes para seu negócio."
+            />
+
+              <ServiceCard
+              icon={<Award className="h-10 w-10 text-[#FFD700]" />}
+              title="Confiabilidade"
+              description="Seja encontrado de forma fácil e eficiente, alcançando novos públicos para seu nicho. E gerando maior valor para sua marca."
+            />
           </div>
           
           <div className="text-center mt-12">
@@ -217,7 +236,7 @@ function App() {
               </div>
               
               <div className="mt-8">
-                <a href="#contato" className="bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors inline-block">
+                <a href="#contato" className="bg-[#FFD700] text-black px-8 py-3 rounded-full font-medium hover:bg-white border transition-colors inline-block">
                   Fale com um Especialista
                 </a>
               </div>
@@ -268,7 +287,7 @@ function App() {
           <p className="text-xl mb-10 max-w-3xl mx-auto text-blue-100">
             Agende uma consulta gratuita e descubra como podemos ajudar seu negócio a crescer com estratégias de marketing digital eficientes.
           </p>
-          <a href="#contato" className="bg-white text-blue-600 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-colors inline-block">
+          <a href="#contato" className="bg-[#FFD700] text-black px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-100 transition-colors inline-block">
             Quero aumentar minhas vendas
           </a>
         </div>
@@ -295,7 +314,7 @@ function App() {
                 
                 <div className="space-y-6">
                   <div className="flex items-start">
-                    <Phone className="h-6 w-6 text-blue-600 mt-1 mr-4 flex-shrink-0" />
+                    <Phone className="h-6 w-6 text-[#FFD700] mt-1 mr-4 flex-shrink-0" />
                     <div>
                       <h4 className="text-lg font-semibold mb-1 text-gray-800">Telefone</h4>
                       <p className="text-gray-600">(61) 9547-9000</p>
@@ -303,7 +322,7 @@ function App() {
                   </div>
                   
                   <div className="flex items-start">
-                    <Mail className="h-6 w-6 text-blue-600 mt-1 mr-4 flex-shrink-0" />
+                    <Mail className="h-6 w-6 text-[#FFD700] mt-1 mr-4 flex-shrink-0" />
                     <div>
                       <h4 className="text-lg font-semibold mb-1 text-gray-800">Email</h4>
                       <p className="text-gray-600">contato@makrodigital.com</p>
@@ -311,10 +330,10 @@ function App() {
                   </div>
                   
                   <div className="flex items-start">
-                    <MapPin className="h-6 w-6 text-blue-600 mt-1 mr-4 flex-shrink-0" />
+                    <MapPin className="h-6 w-6 text-[#FFD700] mt-1 mr-4 flex-shrink-0" />
                     <div>
                       <h4 className="text-lg font-semibold mb-1 text-gray-800">Endereço</h4>
-                      <p className="text-gray-600">Setor Comercial Sul, Quadra 8, Brasília - DF</p>
+                      <p className="text-gray-600">Estamos em todo lugar somos DIGITAL!</p>
                     </div>
                   </div>
                 </div>
@@ -322,13 +341,13 @@ function App() {
                 <div className="mt-10">
                   <h4 className="text-lg font-semibold mb-4 text-gray-800">Siga-nos nas redes sociais</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                    <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Instagram className="h-6 w-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                    <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Facebook className="h-6 w-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                    <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Linkedin className="h-6 w-6" />
                     </a>
                   </div>
@@ -375,6 +394,21 @@ function App() {
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Como é feito o acompanhamento das campanhas?</h3>
               <p className="text-gray-600">
                 Fornecemos relatórios semanais e mensais detalhados, além de uma dashboard personalizada onde você pode acompanhar o desempenho das campanhas em tempo real.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-3 text-gray-800">Como funciona nossos serviços?</h3>
+              <p className="text-gray-600">
+                Fazemos uma análise do seu negócio em uma reunião previamente marcada para melhor entendimento. Nós estamos aptos a ouvir suas dores, entender e mostrar
+                soluções eficientes para alavancar e melhorar seus resultados.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold mb-3 text-gray-800">Como funciona o envio de relatórios?</h3>
+              <p className="text-gray-600">
+                Nosso maior diferencial é o envio de relatórios mensais mostrando o desempenho das campanhas e de numeros de pessoas alcançadas no seu site. 
+                Fazemos também o envio diário dos leads que chegam no seu site e preenchem as informações no fomulário, para que sua equipe entre em contato e gerem novas vendas/clientes.
               </p>
             </div>
           </div>
@@ -429,7 +463,7 @@ function App() {
                 </li>
                 <li className="flex items-start">
                   <MapPin className="h-5 w-5 text-gray-400 mt-0.5 mr-2 flex-shrink-0" />
-                  <span className="text-gray-400">Setor Comercial Sul, Quadra 8, Brasília - DF</span>
+                  <span className="text-gray-400">Estamos em todo lugar somos DIGITAL!</span>
                 </li>
               </ul>
             </div>
