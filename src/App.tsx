@@ -20,10 +20,10 @@ function App() {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            <a href="#servicos" className="text-black hover:text-blue-600 transition-colors">Serviços</a>
-            <a href="#resultados" className="text-black hover:text-blue-600 transition-colors">Resultados</a>
-            <a href="#depoimentos" className="text-black hover:text-blue-600 transition-colors">Depoimentos</a>
-            <a href="#contato" className="text-black hover:text-blue-600 transition-colors">Contato</a>
+            <a href="#servicos" className="text-black hover:text-[#FFD700] transition-colors">Serviços</a>
+            <a href="#resultados" className="text-black hover:text-[#FFD700] transition-colors">Resultados</a>
+            <a href="#depoimentos" className="text-black hover:text-[#FFD700] transition-colors">Depoimentos</a>
+            <a href="#contato" className="text-black hover:text-[#FFD700] transition-colors">Contato</a>
           </div>
           
           <div className="hidden md:block">
@@ -344,7 +344,7 @@ function App() {
                     <a href="https://www.instagram.com/makroagencia/" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Instagram className="h-6 w-6" />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
+                    <a href="https://www.facebook.com/profile.php?id=61573947413498" className="text-gray-600 hover:text-[#FFD700] transition-colors">
                       <Facebook className="h-6 w-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-[#FFD700] transition-colors">
@@ -429,10 +429,10 @@ function App() {
                 Especialistas em tráfego pago e landing pages de alta conversão em Brasília.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.instagram.com/makroagencia/" className="text-gray-400 hover:text-white transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=61573947413498" className="text-gray-400 hover:text-white transition-colors">
                   <Facebook className="h-5 w-5" />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
